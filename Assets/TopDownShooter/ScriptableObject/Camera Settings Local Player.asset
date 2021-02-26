@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c44e7675417df64282d9fb4aaf9d0e6, type: 3}
-  m_Name: New Camera Settings
+  m_Name: Camera Settings Local Player
   m_EditorClassIdentifier: 
-  _rotationLerpSpeed: 1
-  _positionOffSet: 0
-  _positionLerpSpeed: 1
+  _rotationLerpSpeed: 10
+  _positionOffSet: {x: 0, y: 3, z: -3}
+  _positionLerp: 1
