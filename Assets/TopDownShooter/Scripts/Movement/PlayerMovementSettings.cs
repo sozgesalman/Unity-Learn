@@ -9,5 +9,8 @@ namespace TopDownShooter.PlayerMovement
     {
         public float HorizontalSpeed = 5;
         public float VerticalSpeed = 5;
+
+        [SerializeField] private Vector3 _jumpForce;
+        public Vector3 JumpForce { get { return _jumpForce; } }
     }
 }
