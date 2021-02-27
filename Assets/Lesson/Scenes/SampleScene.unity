@@ -645,6 +645,7 @@ MonoBehaviour:
   _inputData: {fileID: 11400000, guid: 72e28dcc5aafcaa458e7d72f4face461, type: 2}
   _playerMovementSettings: {fileID: 11400000, guid: 139bb8cc0bd30c3449353d05a63d465e,
     type: 2}
+  _jumpSettings: {fileID: 11400000, guid: 139bb8cc0bd30c3449353d05a63d465e, type: 2}
 --- !u!1001 &595783796651293002
 PrefabInstance:
   m_ObjectHideFlags: 0

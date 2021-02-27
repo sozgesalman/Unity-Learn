@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace TopDownShooter.PlayerMovement
 {
-    public class PlayerControllerMovement : MonoBehaviour
+    public class PlayerMovementController : MonoBehaviour
     {
         [SerializeField] private Rigidbody _rigidBody;
         [SerializeField] private InputData _inputData;
