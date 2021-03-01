@@ -18,8 +18,8 @@ namespace TopDownShooter.Camera
             CameraMovementFollow();
 
             if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                Debug.Log("try shoot");
+            {   
+                Debug.Log("Try Shoot");
                 _shootingManager.Shoot(_cameraTransform.position, _cameraTransform.forward);
             }
         }
@@ -35,9 +35,10 @@ namespace TopDownShooter.Camera
 
         private void CameraMovementFollow()
         {
-            _cameraTransform.position = Vector3.Lerp(_cameraTransform.position,
+            _cameraTransform.position = Vector3.Lerp(_cameraTransform.position, 
                 _targetTransform.position + _cameraSettings.PositionOffSet,
-                Time.deltaTime * _cameraSettings.PositionLerb);
+                Time.deltaTime * _cameraSettings.PositionLerb);               
+            
 
         }
 
