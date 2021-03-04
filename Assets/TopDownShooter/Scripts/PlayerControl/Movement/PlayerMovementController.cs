@@ -11,12 +11,13 @@ namespace TopDownShooter.PlayerControls
         [SerializeField] private Rigidbody _rigidBody;
         [SerializeField] private InputData _inputData;
         [SerializeField] private PlayerMovementSettings _playerMovementSettings;
+        [SerializeField] private Transform _targetTransform;
         //[SerializeField] private PlayerMovementSettings _jumpSettings;
         private void Update()
         {
             _rigidBody.MovePosition(_rigidBody.position + ( _rigidBody.transform.forward * _inputData.Vertical * _playerMovementSettings.VerticalSpeed));
-            _rigidBody.MovePosition(_rigidBody.position + ( _rigidBody.transform.right * _inputData.Horizontal * _playerMovementSettings.HorizontalSpeed));
-
+            //_rigidBody.MovePosition(_rigidBody.position + ( _rigidBody.transform.right * _inputData.Horizontal * _playerMovementSettings.HorizontalSpeed));
+            _targetTransform.transform.Rotate(0, _inputData.Horizontal * _playerMovementSettings.HorizontalSpeed, 0, Space.Self);
             //bool SpaceKeyDown = Input.GetKeyDown(KeyCode.Space);
 
             //if (SpaceKeyDown)
