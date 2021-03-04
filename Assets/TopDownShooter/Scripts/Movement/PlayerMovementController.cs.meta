@@ -3,7 +3,12 @@ guid: 34cba747a505af94ca3cc49e156640ca
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _rigidBody: {instanceID: 0}
+  - _inputData: {fileID: 11400000, guid: 72e28dcc5aafcaa458e7d72f4face461, type: 2}
+  - _playerMovementSettings: {fileID: 11400000, guid: 139bb8cc0bd30c3449353d05a63d465e,
+      type: 2}
+  - _jumpSettings: {fileID: 11400000, guid: 139bb8cc0bd30c3449353d05a63d465e, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
