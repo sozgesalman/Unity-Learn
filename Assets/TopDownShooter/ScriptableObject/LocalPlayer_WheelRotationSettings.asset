@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3715c65c8f25449b397c086ffcf2b3, type: 3}
   m_Name: LocalPlayer_WheelRotationSettings
   m_EditorClassIdentifier: 
-  RotationSpeed: 1
+  RotationSpeed: 10
